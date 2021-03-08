@@ -1,0 +1,105 @@
+header {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #e0ecf0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Mali', serif;
+    font-size: 65px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+h2 {
+    text-align: justify;
+    font-family: 'Mali', serif;
+    font-size: 38px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.intro {
+    text-align: justify;
+    font-family: 'Mali', serif;
+    font-size: 15px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.images {
+    border-radius: 50%;
+    width: 18rem;
+    height: 18rem;
+}
+
+.footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.imagetext {
+    text-align: center;
+    font-family: 'Mali';
+    font-size: 28px;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Mali', serif;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: #0174a1;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+
+.store {
+    padding: 0 16px;
+}
